@@ -9,7 +9,6 @@ import { StatusBar, useColorScheme } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import { Colors } from '@/constants/theme';
-import { ExploreScreen } from '@/screens/ExploreScreen';
 import { HomeScreen } from '@/screens/HomeScreen';
 import { WriteScreen } from '@/screens/WriteScreen';
 
@@ -52,7 +51,6 @@ export default function App() {
           }}>
           <Tab.Screen name="Home" component={HomeScreen} />
           <Tab.Screen name="Write" component={WriteScreen} />
-          <Tab.Screen name="Explore" component={ExploreScreen} />
         </Tab.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
